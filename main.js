@@ -149,6 +149,7 @@ function search(){
   numeroRisultati.innerText = count
 
   let lista = document.getElementById('lista')
+  lista.innerText = ' '
   
 
   for (let i = 0; i < result.length; i++){
