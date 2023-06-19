@@ -157,6 +157,7 @@ function search(){
     lista.appendChild(elementoLista)
     elementoLista.innerText = lavoroTrovato.title + lavoroTrovato.location
   }
+  
 }
 
 

@@ -3,16 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
-        <input  type="text" id="loc" placeholder="Location">
-        <input  type="text" id="job" placeholder="Job title">
-        <button onclick="search()">Search</button>
-        <div>
-        <span>Risultati   </span><span id="count"></span>
-        </div>
-        <ul id="lista"></ul>
+    <header>
+        <h1>Find your next job TODAY!</h1>
+    </header>
+    <main>
+        <input  class="search-element" type="text" id="loc" placeholder="Location">
+        <input  class="search-element" type="text" id="job" placeholder="Job title">
+        <button class="search-element" onclick="search()">Search</button>
+    </main>
+    
+    <div class="contatore">
+        <p>Risultati</p><p id="count"></p>
+    </div>
+    <ul id="lista"></ul>
 
 
 
@@ -27,5 +37,4 @@
 
 </body>
 <script type="text/javascript" src="main.js"></script>
-
 </html>

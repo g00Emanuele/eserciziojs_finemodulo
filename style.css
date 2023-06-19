@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Righteous', cursive;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 2em;
+}
+
+main {
+    display: flex;
+    padding: 2em;
+    justify-content: center;
+}
+
+main .search-element {
+    padding: 0.5em;
+    margin-right: 1em;
+}
+
+.contatore {
+    display: flex;
+    justify-content: center;
+}
+
+#count {
+    margin-left: 0.5em;
+}
+
+li {
+    border-top: 1px solid black;
+    margin-bottom: 0.5em;
+}
